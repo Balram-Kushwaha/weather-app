@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Weather App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body >
+        <div class=" grid grid-cols-1 bg-black h-[100vh]">
+
+        <div class="card place-self-center   h-auto  w-96 items-center rounded-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ">
+           <div class="serach-box p-4  flex justify-center ">
+              <input class="inputCity rounded-full p-4 border-none outline-none " type="text" placeholder="enter city name" alt="city"/>
+              <button class="btn rounded-full bg-white ml-4 p-4 hover:bg-gray-300"> <img class="w-4 h-4 " src="search.png" alt="search"/></button>
+           </div>
+            
+           <div class="details">
+            
+            <div class=" w-full h-auto">
+                <div class="flex flex-col justify-center items-center">
+                    <img class="Weather-icon" src="clouds.png" alt="cloud"/>
+                <h1 class="temperature  text-4xl  text-white font-bold">27℃</h1>
+                <h1 class="city text-4xl mt-3  text-white font-bold">New York</h1>
+                </div>
+               
+            </div>
+
+            <div class="something flex justify-between p-12">
+              <div class="">
+                <div class="flex">
+                    <img class="w-8 w-8" src="humidity.png" alt="humidity"/>
+                    <h1 class="humidity text-2xl text-white ml-2">48%</h1>
+                </div>
+                  <h1 class="text-white mt-1 ml-2">humidity</h1>
+              </div>
+
+              <div class=" speed">
+                <div class="felx ">
+                    <img class="h-8 w-8 " src="wind.png" alt="wind speed"/>
+                    <h1 class="wind text-2xl text-white ml-10 -mt-8">10.29 KM/H</h1>
+                </div>
+                    <h1 class="text-white ml-10">wind speed</h1>
+              </div>
+
+            </div>
+
+           </div>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

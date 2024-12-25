@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;   
+}
+
+h1{
+    color: pink;
+}
+
+
+.card {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+}
+
+@media (min-width: 640px) {
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .card {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
